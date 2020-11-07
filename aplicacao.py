@@ -14,4 +14,13 @@ def noticias():
     return render_template("noticias")
 
 @app.route("/pontuacao")
-def 
+def pontuacao():
+    return render_template("pontuacao")
+
+@app.route("/times")
+def times():
+    return render_template("times")
+
+@app.route("/jogadores")
+def jogadores():
+    return render_template("jogadores")
